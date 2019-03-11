@@ -1,0 +1,52 @@
+.hide {
+	display: none;
+}
+
+#panel {
+	color:#D29375
+  margin: 0 auto;
+	padding: 30px;
+	width: 600px;
+	background-color: #eee;
+}
+
+#todo-list ul {
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#todo-list li {
+	display: flex;
+	padding: 10px;
+}
+
+#todo-list li:hover {
+	background-color: #f8f8f8;
+}
+
+#todo-list .checkbox {
+	margin-right: 10px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+#todo-list li.complete .checkbox {
+	background-color: #777;
+}
+
+#todo-list .content {
+	flex: 1;
+}
+
+#todo-list li.complete .content {
+	text-decoration: line-through;
+}
+
+#todo-list .actions > * {
+	padding: 0 10px;
+	cursor: pointer;
+}
