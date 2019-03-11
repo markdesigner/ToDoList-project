@@ -4,6 +4,6 @@ $db = [
 	'port' => 8889,
 	'dbname' => 'todo_list_demo',
 	'username' => 'mark',
-	'password' => 'mnb158', 
+	'password' => '', 
 	'charset' => 'utf8',
 ];
